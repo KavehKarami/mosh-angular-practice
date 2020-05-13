@@ -1,0 +1,15 @@
+<div>
+  <ng-content select=".alaki"></ng-content>
+  <p *ngIf="isLike">adasdad</p>
+  <ng-content select=".yechizi"></ng-content>
+</div>
+
+<div *ngIf="courses.length > 0; then coursesList; else noCourses"></div>
+
+<ng-template #coursesList>
+  Courses are avalible
+</ng-template>
+
+<ng-template #noCourses>
+  Courses arn't avalible
+</ng-template>

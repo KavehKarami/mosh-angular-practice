@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Output } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -16,5 +16,19 @@ export class AppComponent {
 
   onEnter = () => {
     console.log(this.email);
+  };
+
+  @Output() post = {
+    isLike: true,
+  };
+
+  viewMode = 'map';
+
+  task = {
+    post: 'name',
+
+    assignee: {
+      name: 'trello',
+    },
   };
 }

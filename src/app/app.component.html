@@ -10,3 +10,37 @@
     <span>{{ lorem | summary }}</span>
   </div>
 </div>
+
+<app-like [isLike]="post.isLike">
+  <ng-container class="alaki">
+    <h1>adasd</h1>
+  </ng-container>
+  <div class="yechizi">Lorem ipsum dolor sit amet.</div>
+</app-like>
+
+<div class="m-5 text-center">
+  <button
+    class="btn"
+    [class.btn-primary]="viewMode === 'map'"
+    (click)="viewMode = 'map'"
+  >
+    Map
+  </button>
+  <button
+    [class.btn-primary]="viewMode === 'list'"
+    class="btn ml-3"
+    (click)="viewMode = 'list'"
+  >
+    List
+  </button>
+</div>
+
+<div [ngSwitch]="viewMode">
+  <div *ngSwitchCase="'map'">map View</div>
+  <div *ngSwitchCase="'list'">List View</div>
+  <div *ngSwitchDefault>other View</div>
+</div>
+
+<h1 class="m-5">{{ task?.assignee?.name }}</h1>
+
+<input [appInputFormat]="'ASD'" type="text" />
