@@ -5,11 +5,10 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SummaryPipe } from './summary.pipe';
-import { LikeComponent } from './like/like.component';
-import { InputFormatDirective } from './input-format.directive';
+import { ContactFormComponent } from './contact-form/contact-form.component';
 
 @NgModule({
-  declarations: [AppComponent, SummaryPipe, LikeComponent, InputFormatDirective],
+  declarations: [AppComponent, SummaryPipe, ContactFormComponent],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
