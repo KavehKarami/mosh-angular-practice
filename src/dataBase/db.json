@@ -1,0 +1,404 @@
+{
+  "projects": [
+    {
+      "name": "Rubika",
+      "color": "rgb(41, 182, 246)",
+      "clientName": "",
+      "clientId": null,
+      "budget": 0,
+      "projectAccess": {
+        "admin": false,
+        "signIn": true
+      },
+      "id": 2
+    },
+    {
+      "name": "Minit",
+      "color": "rgb(48, 63, 159)",
+      "clientName": "BeBe Rexha",
+      "clientId": 1,
+      "budget": 0,
+      "projectAccess": {
+        "admin": true,
+        "signIn": true
+      },
+      "id": 1
+    },
+    {
+      "name": "asdasd",
+      "color": "rgb(139, 195, 74)",
+      "clientName": "",
+      "clientId": null,
+      "budget": 0,
+      "projectAccess": {
+        "admin": true,
+        "signIn": true
+      },
+      "id": 3
+    }
+  ],
+  "tags": [
+    {
+      "name": "php",
+      "id": 1
+    },
+    {
+      "name": "js",
+      "id": 2
+    },
+    {
+      "name": "node",
+      "id": 3
+    },
+    {
+      "name": "axios",
+      "id": 4
+    },
+    {
+      "name": "jQuery",
+      "id": 5
+    },
+    {
+      "name": "Redux",
+      "id": 6
+    }
+  ],
+  "posts": [
+    {
+      "description": "asdadsads",
+      "projectName": "Rubika",
+      "projectIndex": 1,
+      "projectId": 2,
+      "activityName": "",
+      "activityId": null,
+      "color": "rgb(41, 182, 246)",
+      "tagName": [
+        {
+          "name": "js",
+          "id": 2
+        },
+        {
+          "name": "jQuery",
+          "id": 5
+        }
+      ],
+      "time": {
+        "count": 10800,
+        "startTime": "13:07",
+        "endTime": "16:07"
+      },
+      "date": "1399/01/01",
+      "id": 1
+    },
+    {
+      "description": "بخش پروژه",
+      "projectName": "Minit",
+      "projectIndex": 2,
+      "projectId": 1,
+      "activityName": "React",
+      "activityId": null,
+      "color": "rgb(48, 63, 159)",
+      "tagName": [
+        {
+          "name": "node",
+          "id": 3
+        }
+      ],
+      "time": {
+        "count": 7200,
+        "startTime": "21:09",
+        "endTime": "23:09"
+      },
+      "date": "1399/01/15",
+      "id": 5
+    },
+    {
+      "description": "پایان مینیت",
+      "projectName": "Minit",
+      "projectIndex": 2,
+      "projectId": 1,
+      "activityName": "React",
+      "activityId": null,
+      "color": "rgb(48, 63, 159)",
+      "tagName": [
+        {
+          "name": "Redux",
+          "id": 6
+        }
+      ],
+      "time": {
+        "count": 7800,
+        "startTime": "18:08",
+        "endTime": "20:18"
+      },
+      "date": "1399/01/30",
+      "id": 9
+    },
+    {
+      "description": "پایان مینیت",
+      "projectName": "Minit",
+      "projectIndex": 2,
+      "projectId": 1,
+      "activityName": "React",
+      "activityId": null,
+      "color": "rgb(48, 63, 159)",
+      "tagName": [],
+      "time": {
+        "count": 8,
+        "startTime": "08:04",
+        "endTime": "08:04"
+      },
+      "date": "1399/02/13",
+      "id": 10
+    },
+    {
+      "description": "بخش ساعت کاری",
+      "projectId": 1,
+      "projectName": "Minit",
+      "projectIndex": 2,
+      "color": "rgb(48, 63, 159)",
+      "activityName": "",
+      "activityId": null,
+      "tagName": [
+        {
+          "name": "axios",
+          "id": 4
+        }
+      ],
+      "time": {
+        "count": 10800,
+        "startTime": "17:08",
+        "endTime": "20:08"
+      },
+      "date": "1399/01/05",
+      "id": 2
+    },
+    {
+      "description": "بخش نوع فعالیت",
+      "projectId": 1,
+      "projectName": "Minit",
+      "projectIndex": 2,
+      "color": "rgb(48, 63, 159)",
+      "activityName": "",
+      "activityId": null,
+      "tagName": [
+        {
+          "name": "js",
+          "id": 2
+        },
+        {
+          "name": "node",
+          "id": 3
+        },
+        {
+          "name": "axios",
+          "id": 4
+        }
+      ],
+      "time": {
+        "count": 6540,
+        "startTime": "19:11",
+        "endTime": "21:00"
+      },
+      "date": "1399/01/21",
+      "id": 6
+    },
+    {
+      "description": "بخش مشتری",
+      "projectId": 1,
+      "projectName": "Minit",
+      "projectIndex": 2,
+      "color": "rgb(48, 63, 159)",
+      "activityName": "",
+      "activityId": null,
+      "tagName": [
+        {
+          "name": "axios",
+          "id": 4
+        },
+        {
+          "name": "js",
+          "id": 2
+        }
+      ],
+      "time": {
+        "count": 18000,
+        "startTime": "12:12",
+        "endTime": "17:12"
+      },
+      "date": "1399/01/24",
+      "id": 7
+    },
+    {
+      "description": "asdad",
+      "projectName": "Rubika",
+      "projectIndex": 1,
+      "projectId": 2,
+      "activityName": "wasdasd",
+      "activityId": 1,
+      "color": "rgb(41, 182, 246)",
+      "tagName": [
+        {
+          "name": "jQuery",
+          "id": 5
+        },
+        {
+          "name": "Redux",
+          "id": 6
+        },
+        {
+          "name": "js",
+          "id": 2
+        }
+      ],
+      "time": {
+        "count": 1,
+        "startTime": "19:50",
+        "endTime": "19:49"
+      },
+      "date": "1399/02/17",
+      "id": 13
+    },
+    {
+      "description": "cvbcbcvb",
+      "id": 14
+    }
+  ],
+  "colors": [
+    {
+      "color": "rgb(211, 47, 47)",
+      "id": 1
+    },
+    {
+      "color": "rgb(194, 24, 91)",
+      "id": 2
+    },
+    {
+      "color": "rgb(171, 71, 188)",
+      "id": 3
+    },
+    {
+      "color": "rgb(103, 58, 183)",
+      "id": 4
+    },
+    {
+      "color": "rgb(48, 63, 159)",
+      "id": 5
+    },
+    {
+      "color": "rgb(25, 118, 210)",
+      "id": 6
+    },
+    {
+      "color": "rgb(41, 182, 246)",
+      "id": 7
+    },
+    {
+      "color": "rgb(0, 151, 167)",
+      "id": 8
+    },
+    {
+      "color": "rgb(0, 121, 107)",
+      "id": 9
+    },
+    {
+      "color": "rgb(56, 142, 60)",
+      "id": 10
+    },
+    {
+      "color": "rgb(139, 195, 74)",
+      "id": 11
+    },
+    {
+      "color": "rgb(255, 235, 59)",
+      "id": 12
+    },
+    {
+      "color": "rgb(255, 160, 0)",
+      "id": 13
+    },
+    {
+      "color": "rgb(239, 108, 0)",
+      "id": 14
+    },
+    {
+      "color": "rgb(216, 67, 21)",
+      "id": 15
+    },
+    {
+      "color": "rgb(158, 157, 36)",
+      "id": 16
+    },
+    {
+      "color": "rgb(189, 189, 189)",
+      "id": 17
+    },
+    {
+      "color": "rgb(96, 125, 139)",
+      "id": 18
+    },
+    {
+      "color": "rgb(93, 64, 55)",
+      "id": 19
+    },
+    {
+      "color": "rgb(33, 33, 33)",
+      "id": 20
+    }
+  ],
+  "date": [
+    {
+      "date": "1399/01/01",
+      "id": 1
+    },
+    {
+      "date": "1399/01/05",
+      "id": 2
+    },
+    {
+      "date": "1399/01/15",
+      "id": 5
+    },
+    {
+      "date": "1399/01/21",
+      "id": 6
+    },
+    {
+      "date": "1399/01/24",
+      "id": 7
+    },
+    {
+      "date": "1399/01/30",
+      "id": 9
+    },
+    {
+      "date": "1399/02/13",
+      "id": 10
+    },
+    {
+      "date": "1399/02/17",
+      "id": 11
+    },
+    {
+      "date": "1399/02/18",
+      "id": 12
+    },
+    {
+      "date": "1399/02/17",
+      "id": 13
+    }
+  ],
+  "tasktype": [
+    {
+      "activityName": "wasdasd",
+      "pay": false,
+      "id": 1
+    }
+  ],
+  "client": [
+    {
+      "clientName": "BeBe Rexha",
+      "id": 1
+    }
+  ]
+}
