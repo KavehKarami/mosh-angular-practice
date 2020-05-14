@@ -1,11 +1,58 @@
-<form class="m-5">
+<form class="m-5" [formGroup]="form" (ngSubmit)="login()">
+  <div *ngIf="form.errors" class="alert alert-danger">
+    username or password is wrong
+  </div>
   <div class="form-group">
     <label for="username">Username</label>
-    <input id="username" type="text" class="form-control" />
+    <input
+      formControlName="username"
+      id="username"
+      type="text"
+      class="form-control"
+    />
+
+    <div *ngIf="username.pending">checking uniquess...</div>
+
+    <div
+      class="alert alert-danger mt-3"
+      *ngIf="!username.pending && username.touched && !username.valid"
+    >
+      <div *ngIf="username.errors.required">UserName is Required</div>
+      <div *ngIf="username.errors.minlength">
+        at least is {{ username.errors.minlength.requiredLength }} character
+        Required
+      </div>
+      <div *ngIf="username.errors.maxlength">
+        maximux character is {{ username.errors.maxlength.requiredLength }}
+      </div>
+      <div *ngIf="username.errors.cannotContainSpace">space is invalid</div>
+      <div *ngIf="username.errors.shouldBeUnique">
+        userName is already taken
+      </div>
+    </div>
   </div>
   <div class="form-group">
     <label for="password">Password</label>
-    <input id="password" type="text" class="form-control" />
+    <input
+      formControlName="password"
+      id="password"
+      type="text"
+      class="form-control"
+    />
+
+    <div
+      class="alert alert-danger mt-3"
+      *ngIf="password.touched && !password.valid"
+    >
+      <div *ngIf="password.errors.required">password is Required</div>
+      <div *ngIf="password.errors.minlength">
+        at least is {{ password.errors.minlength.requiredLength }} character
+        Required
+      </div>
+      <div *ngIf="password.errors.maxlength">
+        maximux character is {{ password.errors.maxlength.requiredLength }}
+      </div>
+    </div>
   </div>
   <button class="btn btn-primary" type="submit">Sign Up</button>
 </form>
