@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { SummaryPipe } from './summary.pipe';
 import { ContactFormComponent } from './contact-form/contact-form.component';
 import { SignupFormComponent } from './signup-form/signup-form.component';
+import { NewCourseFormComponent } from './new-course-form/new-course-form.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { SignupFormComponent } from './signup-form/signup-form.component';
     SummaryPipe,
     ContactFormComponent,
     SignupFormComponent,
+    NewCourseFormComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule, ReactiveFormsModule],
   providers: [],

@@ -1,0 +1,20 @@
+<form class="m-5">
+  <input
+    type="text"
+    class="form-control"
+    (keyup.enter)="addTopic(topic)"
+    #topic
+  />
+</form>
+
+<ul class="list-group m-5">
+  <li
+    *ngFor="let topic of topics.controls"
+    class="list-group-item d-flex justify-content-between align-items-center"
+  >
+    <span>{{ topic.value }}</span>
+    <button class="btn btn-outline-danger" (click)="removeTopic(topic)">
+      delete
+    </button>
+  </li>
+</ul>
