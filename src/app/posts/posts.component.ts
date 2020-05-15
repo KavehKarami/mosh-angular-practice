@@ -57,7 +57,7 @@ export class PostsComponent implements OnInit {
   }
 
   getPosts() {
-    this.service.getPosts.subscribe(
+    this.service.getAll.subscribe(
       (response) => {
         this.posts = response;
       }
@@ -68,7 +68,7 @@ export class PostsComponent implements OnInit {
   }
 
   onPost(element: HTMLInputElement) {
-    this.service.onPost(element).subscribe(
+    this.service.create(element).subscribe(
       (response) => {
         this.getPosts();
       }
@@ -79,7 +79,7 @@ export class PostsComponent implements OnInit {
   }
 
   onDelete(post) {
-    this.service.onDelete(post.id).subscribe(
+    this.service.delete(post.id).subscribe(
       (response) => {
         this.getPosts();
       },
@@ -91,7 +91,7 @@ export class PostsComponent implements OnInit {
   }
 
   onPatch(post, input: HTMLInputElement) {
-    this.service.onPatch(post.id, input).subscribe(
+    this.service.update(post.id, input).subscribe(
       (response) => {
         this.getPosts();
       }
