@@ -12,10 +12,11 @@
       *ngFor="let post of posts"
     >
       <span>{{ post.description }}</span>
-      <!-- <button class="btn btn-outline-primary" (click)="onPut(post)">
-        Update
-      </button> -->
-      <input type="text" #updatePost (keyup.enter)="onPut(post, updatePost)" />
+      <input
+        type="text"
+        #updatePost
+        (keyup.enter)="onPatch(post, updatePost)"
+      />
       <button class="btn btn-outline-danger" (click)="onDelete(post)">
         Delete
       </button>

@@ -65,32 +65,6 @@
   ],
   "posts": [
     {
-      "description": "asdadsads",
-      "projectName": "Rubika",
-      "projectIndex": 1,
-      "projectId": 2,
-      "activityName": "",
-      "activityId": null,
-      "color": "rgb(41, 182, 246)",
-      "tagName": [
-        {
-          "name": "js",
-          "id": 2
-        },
-        {
-          "name": "jQuery",
-          "id": 5
-        }
-      ],
-      "time": {
-        "count": 10800,
-        "startTime": "13:07",
-        "endTime": "16:07"
-      },
-      "date": "1399/01/01",
-      "id": 1
-    },
-    {
       "description": "Kaveh",
       "projectName": "Minit",
       "projectIndex": 2,
@@ -111,28 +85,6 @@
       },
       "date": "1399/01/15",
       "id": 5
-    },
-    {
-      "description": "پایان مینیت",
-      "projectName": "Minit",
-      "projectIndex": 2,
-      "projectId": 1,
-      "activityName": "React",
-      "activityId": null,
-      "color": "rgb(48, 63, 159)",
-      "tagName": [
-        {
-          "name": "Redux",
-          "id": 6
-        }
-      ],
-      "time": {
-        "count": 7800,
-        "startTime": "18:08",
-        "endTime": "20:18"
-      },
-      "date": "1399/01/30",
-      "id": 9
     },
     {
       "description": "پایان مینیت",
@@ -174,63 +126,11 @@
       "id": 2
     },
     {
-      "description": "بخش نوع فعالیت",
-      "projectId": 1,
-      "projectName": "Minit",
-      "projectIndex": 2,
-      "color": "rgb(48, 63, 159)",
-      "activityName": "",
-      "activityId": null,
-      "tagName": [
-        {
-          "name": "js",
-          "id": 2
-        },
-        {
-          "name": "node",
-          "id": 3
-        },
-        {
-          "name": "axios",
-          "id": 4
-        }
-      ],
-      "time": {
-        "count": 6540,
-        "startTime": "19:11",
-        "endTime": "21:00"
-      },
-      "date": "1399/01/21",
+      "description": "asasdasd",
       "id": 6
     },
     {
-      "description": "بخش مشتری",
-      "projectId": 1,
-      "projectName": "Minit",
-      "projectIndex": 2,
-      "color": "rgb(48, 63, 159)",
-      "activityName": "",
-      "activityId": null,
-      "tagName": [
-        {
-          "name": "axios",
-          "id": 4
-        },
-        {
-          "name": "js",
-          "id": 2
-        }
-      ],
-      "time": {
-        "count": 18000,
-        "startTime": "12:12",
-        "endTime": "17:12"
-      },
-      "date": "1399/01/24",
-      "id": 7
-    },
-    {
-      "description": "asdad",
+      "description": "asddsa",
       "projectName": "Rubika",
       "projectIndex": 1,
       "projectId": 2,
@@ -260,12 +160,8 @@
       "id": 13
     },
     {
-      "description": "cvbcbcvb",
+      "description": "asdasd",
       "id": 14
-    },
-    {
-      "description": "asd",
-      "id": 15
     }
   ],
   "colors": [
