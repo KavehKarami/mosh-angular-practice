@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 // import { HttpClient } from '@angular/common/http';
 import { PostService } from './../services/post.service';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-posts',
@@ -50,10 +51,16 @@ export class PostsComponent implements OnInit {
   //     });
   // }
 
-  constructor(private service: PostService) {}
+  constructor(private service: PostService, private route: ActivatedRoute) {}
 
   ngOnInit() {
     this.getPosts();
+
+    this.route.queryParamMap.subscribe((params) =>
+      console.log(params.get('page'))
+    );
+    const page = this.route.snapshot.queryParamMap.get('page');
+    console.log(page);
   }
 
   getPosts() {
